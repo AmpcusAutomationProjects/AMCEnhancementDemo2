@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="90578" started-at="2018-09-19T17:30:27Z" finished-at="2018-09-19T17:31:57Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="90578" started-at="2018-09-19T17:30:27Z" finished-at="2018-09-19T17:31:57Z">
+      <class name="jenkinsProject.LogoutTest">
+        <test-method status="PASS" signature="logoutTest()[pri:0, instance:jenkinsProject.LogoutTest@224edc67]" name="logoutTest" duration-ms="32583" started-at="2018-09-19T17:31:25Z" finished-at="2018-09-19T17:31:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+      </class> <!-- jenkinsProject.LogoutTest -->
+      <class name="jenkinsProject.MavenJenkinsDemo">
+        <test-method status="PASS" signature="mavenJenkinTest()[pri:0, instance:jenkinsProject.MavenJenkinsDemo@26be92ad]" name="mavenJenkinTest" duration-ms="24178" started-at="2018-09-19T17:30:27Z" finished-at="2018-09-19T17:30:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mavenJenkinTest -->
+      </class> <!-- jenkinsProject.MavenJenkinsDemo -->
+      <class name="jenkinsProject.LoginTest">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:jenkinsProject.LoginTest@4c70fda8]" name="loginTest" duration-ms="33786" started-at="2018-09-19T17:30:51Z" finished-at="2018-09-19T17:31:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- jenkinsProject.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

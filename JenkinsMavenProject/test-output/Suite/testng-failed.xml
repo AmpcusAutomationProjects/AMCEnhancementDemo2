@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="jenkinsProject.LogoutTest">
+        <methods>
+          <include name="logoutTest"/>
+        </methods>
+      </class> <!-- jenkinsProject.LogoutTest -->
+      <class name="jenkinsProject.MavenJenkinsDemo">
+        <methods>
+          <include name="mavenJenkinTest"/>
+        </methods>
+      </class> <!-- jenkinsProject.MavenJenkinsDemo -->
+      <class name="jenkinsProject.LoginTest">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- jenkinsProject.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
